@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_links_picture_buttons",
+  "info": {
+    "displayName": "Picture button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Pokoje",
+        "Okolica",
+        "Wszystkie"
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_elements_contact_elements",
+  "info": {
+    "displayName": "Contact element",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "PHONE",
+        "ADDRESS",
+        "MAIL"
+      ]
+    }
+  }
+}

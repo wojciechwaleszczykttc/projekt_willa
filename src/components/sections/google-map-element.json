@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_sections_google_map_elements",
+  "info": {
+    "displayName": "Google map element"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}

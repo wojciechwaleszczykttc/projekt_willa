@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_elements_grid_elements",
+  "info": {
+    "displayName": "Grid element"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "enumeration",
+      "enum": [
+        "SAUNA"
+      ]
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_sections_title_with_pictures",
+  "info": {
+    "displayName": "Title with picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "reverse": {
+      "type": "boolean"
+    },
+    "button": {
+      "type": "component",
+      "repeatable": false,
+      "component": "links.button-link"
+    },
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "cardDesign": {
+      "type": "boolean"
+    }
+  }
+}
