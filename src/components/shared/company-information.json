@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_company_informations",
+  "info": {
+    "displayName": "Company Information",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "phoneNumber": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}

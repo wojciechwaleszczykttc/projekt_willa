@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_elements_typed_pictures",
+  "info": {
+    "displayName": "Typed picture",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "picture": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "Pokoje",
+        "Okolica"
+      ]
+    }
+  }
+}

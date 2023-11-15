@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_galeries",
+  "info": {
+    "displayName": "Galery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "pictures": {
+      "displayName": "Typed picture",
+      "type": "component",
+      "repeatable": true,
+      "component": "elements.typed-picture"
+    },
+    "buttons": {
+      "displayName": "Picture button",
+      "type": "component",
+      "repeatable": true,
+      "component": "links.picture-button"
+    }
+  }
+}

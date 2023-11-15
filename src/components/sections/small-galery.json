@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_sections_small_galeries",
+  "info": {
+    "displayName": "Small galery",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "pictures": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "showLink": {
+      "type": "boolean"
+    },
+    "newTab": {
+      "type": "boolean"
+    },
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
