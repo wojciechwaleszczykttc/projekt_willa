@@ -22,6 +22,11 @@
       "type": "component",
       "repeatable": false,
       "component": "layout.logo"
+    },
+    "navbarLogoBlack": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.logo"
     }
   }
 }

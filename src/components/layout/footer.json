@@ -26,6 +26,21 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.company-information"
+    },
+    "socialTitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "socialDescription": {
+      "type": "text"
+    },
+    "copyrights": {
+      "type": "string"
     }
   }
 }

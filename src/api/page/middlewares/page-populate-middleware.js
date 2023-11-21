@@ -1,9 +1,5 @@
 "use strict";
 
-/**
- * `page-populate-middleware` middleware
- */
-
 const populate = {
   contentSections: {
     populate: {
@@ -64,13 +60,12 @@ const populate = {
     },
   },
   seo: {
-    fields: ["metaTitle", "metaDescription"],
+    fields: ["metaTitle", "metaDescription", "keywords"],
     populate: { shareImage: true },
   },
 };
 
 module.exports = (config, { strapi }) => {
-  // Add your own logic here.
   return async (ctx, next) => {
     ctx.query = {
       populate,

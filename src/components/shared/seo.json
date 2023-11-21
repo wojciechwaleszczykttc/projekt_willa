@@ -23,6 +23,10 @@
       "allowedTypes": [
         "images"
       ]
+    },
+    "keywords": {
+      "type": "string",
+      "required": true
     }
   }
 }
